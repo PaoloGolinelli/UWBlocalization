@@ -18,6 +18,8 @@ The Node-RED flow contains all the source code for:
 - Storing data in a InfluxDB database
 - Quering the database and visualizing the historic tracking positions
 
+Additionally, the repository includes the MATLAB code used for analyzing the results of the MoCap performance evaluation campaign, along with the required dataset. 
+
 For more information please refer to the provided project report
 
 ## Components
@@ -26,6 +28,10 @@ For more information please refer to the provided project report
 - `firmware/nRF52840DK-DW3_QM33_SDK_UCI-FreeRTOS.hex`: Official Qorvo-provided UCI firmware used for testing and calibration via Qorvo One graphic interface.
 - `firmware/nRF52840DK-DW3_QM33_SDK_CLI-FreeRTOS.hex`: Official Qorvo-provided CLI firmware used for testing and data acquisition.
 - `report/project_report.pdf`: Project documentation/report describing the implementation, architecture, and results.
+- `evaluation/performance_eval.m`:
+- `evaluation/tracking_data.csv`:
+- `evaluation/raw_data.csv`:
+- `evaluation/mocap_data`:
 
 ## Disclaimer
 
