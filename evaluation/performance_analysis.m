@@ -10,15 +10,11 @@ offset = 72;
 
 %% Load data
 
-% select experiment
-exp = "third";
-
 % load mocap data
-dMC = load_data_MoCap(sprintf("data\\%sTest.mat",exp));
+dMC = load_data_MoCap("data\mocap_data.mat");
 
-%dKF = parse_influx_csv("data\query.csv", dMC.timestamp, offset);
-dKF = parse_influx_csv(sprintf("data\\%s_estpose.csv",exp), dMC.timestamp, offset);
-dRP = parse_influx_csv(sprintf("data\\%s_rawpose.csv",exp), dMC.timestamp, offset);
+dKF = parse_influx_csv("data\estpose.csv", dMC.timestamp, offset);
+dRM = parse_influx_csv("data\rawpose.csv", dMC.timestamp, offset);
 
 %% Plot the result of MoCap tracking
 
@@ -75,7 +71,7 @@ st = 280; % start time
 et = 468; % stop time
 
 % Kalman Filter estimates against Ground Truth
-figure(2); hold on; grid on; axis equal; xlim([-170,130])
+figure(2); hold on; grid on; axis equal;
 %title("Comparison between estimated positions (KF) and ground truth (GT)")
 xlabel('x [cm]'); ylabel('y [cm]');
 
@@ -90,18 +86,18 @@ plot(0,0, 'k.', 'Marker','o', 'MarkerSize',14)
 legend(["tag 1 KF", "tag 2 KF", "tag 1 GT", "tag 2 GT", "anchor"])
 
 % Raw Position against Ground Truth
-figure(3); hold on; grid on; axis equal; xlim([-170,130])
-%title("Comparison between raw positions (RP) and ground truth (GT)")
+figure(3); hold on; grid on; axis equal;
+%title("Comparison between raw positions (RM) and ground truth (GT)")
 xlabel('x [cm]'); ylabel('y [cm]');
-plot(dRP.tag1.x(st:et),dRP.tag1.y(st:et), 'b-',LineWidth=0.8, LineStyle='-')
-plot(dRP.tag2.x(st:et),dRP.tag2.y(st:et), 'r-',LineWidth=0.8, LineStyle='-')
+plot(dRM.tag1.x(st:et),dRM.tag1.y(st:et), 'b-',LineWidth=0.8, LineStyle='-')
+plot(dRM.tag2.x(st:et),dRM.tag2.y(st:et), 'r-',LineWidth=0.8, LineStyle='-')
 
 plot(d2D.tag1.x(st:et),d2D.tag1.y(st:et), 'b-',LineWidth=1.5, LineStyle='--')
 plot(d2D.tag2.x(st:et),d2D.tag2.y(st:et), 'r-',LineWidth=1.5, LineStyle='--')
 
 plot(0,0, 'k.', 'Marker','o', 'MarkerSize',14)
 
-legend(["tag 1 RP", "tag 2 RP", "tag 1 GT", "tag 2 GT", "anchor"])
+legend(["tag 1 RM", "tag 2 RM", "tag 1 GT", "tag 2 GT", "anchor"])
 
 %% Tracking error
 
@@ -130,24 +126,24 @@ title('Tag 2');
 
 
 % Raw Position against Ground Truth
-dx = dRP.tag1.x(st:et) - d2D.tag1.x(st:et);
-dy = dRP.tag1.y(st:et) - d2D.tag1.y(st:et);
-RP_track_err_1 = vecnorm([dx,dy],2,2);
+dx = dRM.tag1.x(st:et) - d2D.tag1.x(st:et);
+dy = dRM.tag1.y(st:et) - d2D.tag1.y(st:et);
+RM_track_err_1 = vecnorm([dx,dy],2,2);
 
-dx = dRP.tag2.x(st:et) - d2D.tag2.x(st:et);
-dy = dRP.tag2.y(st:et) - d2D.tag2.y(st:et);
-RP_track_err_2 = vecnorm([dx,dy],2,2);
+dx = dRM.tag2.x(st:et) - d2D.tag2.x(st:et);
+dy = dRM.tag2.y(st:et) - d2D.tag2.y(st:et);
+RM_track_err_2 = vecnorm([dx,dy],2,2);
 
 figure(5); clf;
 % Tag 1 error
 subplot(2,1,1); hold on; grid on;
-plot(dRP.tag1.t(st:et), RP_track_err_1, 'b-', 'LineWidth',1.2);
+plot(dRM.tag1.t(st:et), RM_track_err_1, 'b-', 'LineWidth',1.2);
 xlabel('Time [s]');
 ylabel('Error [cm]');
 title('Tag 1');
 % Tag 2 error
 subplot(2,1,2); hold on; grid on;
-plot(dRP.tag2.t(st:et), RP_track_err_2, 'r-', 'LineWidth',1.2);
+plot(dRM.tag2.t(st:et), RM_track_err_2, 'r-', 'LineWidth',1.2);
 xlabel('Time [s]');
 ylabel('Error [cm]');
 title('Tag 2');
@@ -161,10 +157,10 @@ fprintf("95%c of tracking error:\t\t\t\t\t tag 1 = %0.2d \t tag 2 = %0.2d\n", '%
 
 
 fprintf("\nRaw Measurements\n")
-fprintf("Average tracking error:\t\t\t\t\t tag 1 = %0.2d \t tag 2 = %0.2d\n", mean(RP_track_err_1), mean(RP_track_err_2))
-fprintf("Root Mean Square tracking error:\t\t tag 1 = %0.2d \t tag 2 = %0.2d\n", sqrt(mean(RP_track_err_1.^2)), sqrt(mean(RP_track_err_2.^2)))
-fprintf("Standard deviation of tracking error:\t tag 1 = %0.2d \t tag 2 = %0.2d\n", std(RP_track_err_1), std(RP_track_err_2))
-fprintf("95%c of tracking error:\t\t\t\t\t tag 1 = %0.2d \t tag 2 = %0.2d\n", '%', prctile(RP_track_err_1, 95), prctile(RP_track_err_2, 95))
+fprintf("Average tracking error:\t\t\t\t\t tag 1 = %0.2d \t tag 2 = %0.2d\n", mean(RM_track_err_1), mean(RM_track_err_2))
+fprintf("Root Mean Square tracking error:\t\t tag 1 = %0.2d \t tag 2 = %0.2d\n", sqrt(mean(RM_track_err_1.^2)), sqrt(mean(RM_track_err_2.^2)))
+fprintf("Standard deviation of tracking error:\t tag 1 = %0.2d \t tag 2 = %0.2d\n", std(RM_track_err_1), std(RM_track_err_2))
+fprintf("95%c of tracking error:\t\t\t\t\t tag 1 = %0.2d \t tag 2 = %0.2d\n", '%', prctile(RM_track_err_1, 95), prctile(RM_track_err_2, 95))
 
 %% RSSI
 

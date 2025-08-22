@@ -1,0 +1,3604 @@
+[
+    {
+        "id": "7d4fd8ba21ce7e32",
+        "type": "tab",
+        "label": "UWB localization",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "98b25c5666216c8b",
+        "type": "group",
+        "z": "7d4fd8ba21ce7e32",
+        "name": "Start and Stop Localization",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "04d786e1a63150fb",
+            "c69ad4561c0be60e",
+            "c974aa9a7855296c",
+            "a63492c5ec3d64a6",
+            "aac513a3c246d832",
+            "ced90bb54626eec2",
+            "71fb98483aa2993e",
+            "04606ea0549d0795",
+            "0725dbcd50e97930",
+            "9d87aa6464c30f73"
+        ],
+        "x": 34,
+        "y": 39,
+        "w": 792,
+        "h": 202
+    },
+    {
+        "id": "b68762131b886951",
+        "type": "group",
+        "z": "7d4fd8ba21ce7e32",
+        "name": "Data Acquisition and Processing",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fa50fcf82ccaef54",
+            "9447ea8326f52907",
+            "df2e113242c0e159",
+            "9b8df89f40ab960b",
+            "0d39efe6c0063e78",
+            "78bb4bf42c45abe2",
+            "058e4a8463dc7ad9",
+            "45ded32a567b4afc",
+            "d4ec7239fdd982a6",
+            "3b9ee0e2b5d52351",
+            "aa0f8bf2afd42c73",
+            "19aa9e711fa42dbe",
+            "f258c532f55a99e2",
+            "ab972eb7c071d5df",
+            "fb43dfdce5188f20",
+            "3f12439b27ab0423",
+            "cf6731ad40a8d11c",
+            "c50a3f80eafd9ae1",
+            "ca773675f6104b27",
+            "784a1cf19c14b03c",
+            "6764290b4022f350",
+            "2e7d5488bcfa6447",
+            "1f41e7de17a81d15",
+            "59889c051d59d95a",
+            "464aa4b451867f5c",
+            "04c9c13c250e9416",
+            "7ad7f5939609b50c",
+            "e9866ddea5f660ed",
+            "f7a1667c65e412b9",
+            "9085253d9484d47b",
+            "071f451d8297d821",
+            "56085f3ba1a8537e"
+        ],
+        "x": 34,
+        "y": 719,
+        "w": 1372,
+        "h": 442
+    },
+    {
+        "id": "5f91a9df89fc67cc",
+        "type": "group",
+        "z": "7d4fd8ba21ce7e32",
+        "name": "Configure Frequency",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "01409be82b2270e1",
+            "c586566cbafcfbd1",
+            "a3b2da6a09b4d89c",
+            "e864963fb93d3731",
+            "4d901485cacc151e",
+            "ddffba97e74c8607",
+            "ab7fbebfab5c8dab",
+            "e672b732096d7a21",
+            "8e3a4a9fc4432f46",
+            "89ab7945169b045c",
+            "1b23e625ed3bfe65",
+            "141f2704e96ee3d3",
+            "06e8eaf5b71697d1",
+            "f291dc0b044ee632",
+            "743d2ece6525772e",
+            "b044cb06d5f1a393",
+            "1911f08c9f14b432",
+            "57ed35d27feca64c",
+            "dfb9eb801d0bda47",
+            "6babc5d3666fe8ad",
+            "3a149ce5720702ad",
+            "303bfd35340b12bb",
+            "52d55298a0e984c2",
+            "0ef743895ffcea28",
+            "db6bf1562c8bf2e5",
+            "b009d2c1dd7e9966",
+            "b2ece5df31cdbbc1",
+            "5b525a5ae1786190",
+            "969c3883d81bcd91",
+            "74248aa484a4b47b",
+            "2e94c2646633949b",
+            "b202523e616183bd",
+            "250de606c2698de5",
+            "115be4f92c40f581",
+            "6aebd0a3e6467b82",
+            "20ceb4dda1b6db3c",
+            "b4bfdbd6459e9a3f",
+            "923163c19bb52242",
+            "3e7f519aac7bad9a",
+            "e5dc98385885cdc7",
+            "823f33920f116ccd",
+            "0ac1633949147434",
+            "96cdf25d6e2a0c9b",
+            "a037873e719c0cfb",
+            "97a3509abbeb9271",
+            "50d5dec667edcd33",
+            "dc5ea4739b7a35ba",
+            "a43a0a4b0f2f4669",
+            "978a5225cccb4226",
+            "d165c0885fa6c50c",
+            "b54211b729f2ae1a",
+            "5a9781e5faed9773",
+            "a2a05ff81c82ddf1",
+            "0cbee648d9d09be4",
+            "e06f627504dfc96b",
+            "379670bdd77f81dc",
+            "21a7ab995bbe2527",
+            "7ed6a17954a8998b",
+            "7cfea7494babbbad",
+            "dbc218f2e8b6a093"
+        ],
+        "x": 34,
+        "y": 279,
+        "w": 2332,
+        "h": 342
+    },
+    {
+        "id": "7932d5a3bf7ae7bb",
+        "type": "group",
+        "z": "7d4fd8ba21ce7e32",
+        "name": "Query building",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4310a4cb345ba986",
+            "3f93955339bb40d7",
+            "f20f38db52ea01a0",
+            "06b8affa7e9ab39f",
+            "7e229ffb897e6f74",
+            "b12b07a558a5eb8c",
+            "e50dc8a08b02545d",
+            "d1c978c31ca2285d",
+            "f6adce5ee5e3acf8",
+            "e65ce79d7bbd8398",
+            "bf01a6ca203cd9bf",
+            "b9c4cc677deaa485",
+            "5c8d21a361750e92"
+        ],
+        "x": 34,
+        "y": 1659,
+        "w": 1172,
+        "h": 182
+    },
+    {
+        "id": "12a011b8d56c83c9",
+        "type": "group",
+        "z": "7d4fd8ba21ce7e32",
+        "name": "Plot historic data",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "123e37210e86c596",
+            "a214a899c42489fb",
+            "c149670a9a4d4719",
+            "53415b9caff4f572",
+            "30bd0b45970243a0",
+            "27811c2ca1269b25",
+            "65383ad578ce0698",
+            "b20315e453198193",
+            "94fdd81e7f09377c",
+            "dd377558b18bf7cc",
+            "07d6075c37e4b66c",
+            "6c64312ccaabef2a",
+            "b88e03349d04c9a0",
+            "1813819e4e979a4d",
+            "47316f9cf21a81c1",
+            "890428d316a10b67",
+            "5c7338fc535c3dda",
+            "3d1603a633d1eba0",
+            "46a989b7d80cb07b"
+        ],
+        "x": 34,
+        "y": 1259,
+        "w": 1432,
+        "h": 362
+    },
+    {
+        "id": "78bb4bf42c45abe2",
+        "type": "serial in",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "Anchor-in",
+        "serial": "aead97ea5d96719a",
+        "x": 120,
+        "y": 880,
+        "wires": [
+            [
+                "9b8df89f40ab960b",
+                "0d39efe6c0063e78"
+            ]
+        ]
+    },
+    {
+        "id": "04d786e1a63150fb",
+        "type": "debug",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "98b25c5666216c8b",
+        "name": "debug 3",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "c69ad4561c0be60e",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "98b25c5666216c8b",
+        "name": "Start localization",
+        "func": "msg.payload = \"INITF\\n\";\n\nconst math = global.get('math');\n\nlet newX = math.matrix([[1], [1], [0], [0]]);\nlet newP = math.multiply(math.identity(4), 10000);\nflow.set(\"1_x\", newX);\nflow.set(\"1_P\", newP);\nflow.set(\"2_x\", newX);\nflow.set(\"2_P\", newP);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 120,
+        "wires": [
+            [
+                "04d786e1a63150fb",
+                "aac513a3c246d832"
+            ]
+        ]
+    },
+    {
+        "id": "c974aa9a7855296c",
+        "type": "debug",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "98b25c5666216c8b",
+        "name": "debug 14",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "a63492c5ec3d64a6",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "98b25c5666216c8b",
+        "name": "Stop localization",
+        "func": "msg.payload = \"STOP\\n\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 200,
+        "wires": [
+            [
+                "c974aa9a7855296c",
+                "aac513a3c246d832"
+            ]
+        ]
+    },
+    {
+        "id": "aac513a3c246d832",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "98b25c5666216c8b",
+        "name": "Anchor-out",
+        "serial": "aead97ea5d96719a",
+        "x": 730,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "9b8df89f40ab960b",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "parse message in",
+        "func": "let input = msg.payload;\n\n// Regex for lines with SUCCESS measurement\nlet regex = /\\[mac_address=(0x[0-9a-fA-F]+),\\s*status=\"SUCCESS\",\\s*distance\\[cm\\]=(-?\\d+(?:\\.\\d+)?),\\s*loc_az_pdoa=(-?\\d+(?:\\.\\d+)?),\\s*loc_az=(-?\\d+(?:\\.\\d+)?),\\s*RSSI\\[dBm\\]=(-?\\d+(?:\\.\\d+)?)\\]/;\n\nlet match = input.match(regex);\n\nif (match) {\n    msg.payload = {\n        mac_address: match[1],\n        distance_cm: parseFloat(match[2]),\n        loc_az_pdoa: parseFloat(match[3]),\n        loc_az: parseFloat(match[4]),\n        rssi_dbm: parseFloat(match[5])\n    };\n    return msg;\n} else {\n    return null;  // Nothing to parse\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 880,
+        "wires": [
+            [
+                "9447ea8326f52907"
+            ]
+        ]
+    },
+    {
+        "id": "fa50fcf82ccaef54",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "raw positions",
+        "func": "let distance = msg.payload.distance_cm;\nlet azimuth = msg.payload.loc_az;\nlet rssi = msg.payload.rssi_dbm;\n\nlet angle_rad = azimuth * Math.PI / 180;\n\nmsg.payload = {\n    x: distance * Math.sin(angle_rad),\n    y: distance * Math.cos(angle_rad)\n};\n\nmsg.rssi = rssi;\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 800,
+        "wires": [
+            [
+                "2e7d5488bcfa6447",
+                "cf6731ad40a8d11c",
+                "59889c051d59d95a"
+            ]
+        ]
+    },
+    {
+        "id": "9447ea8326f52907",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "extract agent id",
+        "func": "// Extract measurements from agent 1\nif (msg.payload.mac_address == \"0x0001\") {\n    msg.topic = \"agent 1\";\n} \nelse if (msg.payload.mac_address == \"0x0002\") {\n    msg.topic = \"agent 2\";\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 880,
+        "wires": [
+            [
+                "fa50fcf82ccaef54",
+                "df2e113242c0e159",
+                "f258c532f55a99e2",
+                "f7a1667c65e412b9",
+                "56085f3ba1a8537e"
+            ]
+        ]
+    },
+    {
+        "id": "2e7d5488bcfa6447",
+        "type": "ui-chart",
+        "z": "7d4fd8ba21ce7e32",
+        "d": true,
+        "g": "b68762131b886951",
+        "group": "d7e60aaa9fea8ac7",
+        "name": "Agent's Positions Raw",
+        "label": "chart",
+        "order": 2,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "x [cm]",
+        "xAxisProperty": "payload.x",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "y [cm]",
+        "yAxisProperty": "payload.y",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "triangle",
+        "pointRadius": "10",
+        "showLegend": true,
+        "removeOlder": "5",
+        "removeOlderUnit": "1",
+        "removeOlderPoints": "10",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#000000",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1080,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "df2e113242c0e159",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "plot anchor",
+        "func": "msg.payload = {\n    x: 0,\n    y: 0\n};\n\nmsg.topic = \"anchor\"\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 880,
+        "wires": [
+            [
+                "2e7d5488bcfa6447",
+                "ab972eb7c071d5df"
+            ]
+        ]
+    },
+    {
+        "id": "ced90bb54626eec2",
+        "type": "ui-button",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "98b25c5666216c8b",
+        "group": "3b5f996fa9066473",
+        "name": "Start localization",
+        "label": "Start localization",
+        "order": 4,
+        "width": 2,
+        "height": "2",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 300,
+        "y": 120,
+        "wires": [
+            [
+                "c69ad4561c0be60e"
+            ]
+        ]
+    },
+    {
+        "id": "71fb98483aa2993e",
+        "type": "ui-button",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "98b25c5666216c8b",
+        "group": "3b5f996fa9066473",
+        "name": "Stop localization",
+        "label": "Stop localization",
+        "order": 5,
+        "width": 2,
+        "height": "2",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 300,
+        "y": 200,
+        "wires": [
+            [
+                "a63492c5ec3d64a6"
+            ]
+        ]
+    },
+    {
+        "id": "04606ea0549d0795",
+        "type": "ui-switch",
+        "z": "7d4fd8ba21ce7e32",
+        "d": true,
+        "g": "98b25c5666216c8b",
+        "name": "localization on/off",
+        "label": "Turn localization on/off",
+        "group": "3b5f996fa9066473",
+        "order": 6,
+        "width": "3",
+        "height": "1",
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-spread",
+        "clickableArea": "switch",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 150,
+        "y": 160,
+        "wires": [
+            [
+                "0725dbcd50e97930"
+            ]
+        ]
+    },
+    {
+        "id": "0725dbcd50e97930",
+        "type": "switch",
+        "z": "7d4fd8ba21ce7e32",
+        "d": true,
+        "g": "98b25c5666216c8b",
+        "name": "on/off",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            },
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 330,
+        "y": 160,
+        "wires": [
+            [
+                "c69ad4561c0be60e"
+            ],
+            [
+                "a63492c5ec3d64a6"
+            ]
+        ]
+    },
+    {
+        "id": "0d39efe6c0063e78",
+        "type": "debug",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "debug 15",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "058e4a8463dc7ad9",
+        "type": "inject",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "meas1",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": "",
+        "topic": "",
+        "payload": " [mac_address=0x0001, status=\"SUCCESS\", distance[cm]=140, loc_az_pdoa=-21.28, loc_az=33.21, RSSI[dBm]=-62.5];",
+        "payloadType": "str",
+        "x": 130,
+        "y": 780,
+        "wires": [
+            [
+                "9b8df89f40ab960b"
+            ]
+        ]
+    },
+    {
+        "id": "45ded32a567b4afc",
+        "type": "inject",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "meas2",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": " [mac_address=0x0002, status=\"SUCCESS\", distance[cm]=92, loc_az_pdoa=-48.78, loc_az=-18.21, RSSI[dBm]=-32.5]}",
+        "payloadType": "str",
+        "x": 130,
+        "y": 820,
+        "wires": [
+            [
+                "9b8df89f40ab960b"
+            ]
+        ]
+    },
+    {
+        "id": "115be4f92c40f581",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 810,
+        "y": 420,
+        "wires": [
+            [
+                "5b525a5ae1786190"
+            ]
+        ]
+    },
+    {
+        "id": "250de606c2698de5",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Anchor-out",
+        "serial": "aead97ea5d96719a",
+        "x": 830,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "20ceb4dda1b6db3c",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1090,
+        "y": 420,
+        "wires": [
+            [
+                "d165c0885fa6c50c"
+            ]
+        ]
+    },
+    {
+        "id": "b4bfdbd6459e9a3f",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "SAVE",
+        "func": "msg.payload = \"SAVE\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 420,
+        "wires": [
+            [
+                "52d55298a0e984c2"
+            ]
+        ]
+    },
+    {
+        "id": "6aebd0a3e6467b82",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Anchor-out",
+        "serial": "aead97ea5d96719a",
+        "x": 1110,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "52d55298a0e984c2",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Anchor-out",
+        "serial": "aead97ea5d96719a",
+        "x": 1670,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "0ef743895ffcea28",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Agent 1-out",
+        "serial": "51df3d6cfc361753",
+        "x": 1670,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "db6bf1562c8bf2e5",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Agent 2-out",
+        "serial": "38283a4216d41c27",
+        "x": 1670,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "01409be82b2270e1",
+        "type": "ui-slider",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "group": "3b5f996fa9066473",
+        "name": "Set measurement frequency",
+        "label": "Set measurement frequency [Hz]",
+        "tooltip": "",
+        "order": 3,
+        "width": "6",
+        "height": "1",
+        "passthru": false,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "thumbLabel": "always",
+        "showTicks": "always",
+        "min": "2",
+        "max": 10,
+        "step": "0.5",
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 180,
+        "y": 320,
+        "wires": [
+            [
+                "a3b2da6a09b4d89c"
+            ]
+        ]
+    },
+    {
+        "id": "c586566cbafcfbd1",
+        "type": "debug",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "debug 17",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "a3b2da6a09b4d89c",
+        "type": "change",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "update frequency",
+        "rules": [
+            {
+                "t": "set",
+                "p": "freq",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 320,
+        "wires": [
+            [
+                "c586566cbafcfbd1"
+            ]
+        ]
+    },
+    {
+        "id": "e864963fb93d3731",
+        "type": "ui-button",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "group": "3b5f996fa9066473",
+        "name": "Set configuration",
+        "label": "Apply changes",
+        "order": 7,
+        "width": "6",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "right",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 150,
+        "y": 500,
+        "wires": [
+            [
+                "ddffba97e74c8607",
+                "b009d2c1dd7e9966",
+                "b2ece5df31cdbbc1"
+            ]
+        ]
+    },
+    {
+        "id": "4d901485cacc151e",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 510,
+        "y": 420,
+        "wires": [
+            [
+                "ab7fbebfab5c8dab"
+            ]
+        ]
+    },
+    {
+        "id": "ddffba97e74c8607",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "STOP",
+        "func": "msg.payload = \"STOP\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 420,
+        "wires": [
+            [
+                "4d901485cacc151e",
+                "e672b732096d7a21"
+            ]
+        ]
+    },
+    {
+        "id": "ab7fbebfab5c8dab",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "set freq",
+        "func": "let freq = flow.get(\"freq\") || 0.5;\n\nlet period = 1/freq * 1000;\n\nmsg.payload = `INITF -BLOCK=${Math.round(period)} -MULTI -PADDR=[1,2]\\n`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 420,
+        "wires": [
+            [
+                "115be4f92c40f581",
+                "250de606c2698de5"
+            ]
+        ]
+    },
+    {
+        "id": "e672b732096d7a21",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Anchor-out",
+        "serial": "aead97ea5d96719a",
+        "x": 530,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "8e3a4a9fc4432f46",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 510,
+        "y": 500,
+        "wires": [
+            [
+                "89ab7945169b045c"
+            ]
+        ]
+    },
+    {
+        "id": "89ab7945169b045c",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "set freq 1",
+        "func": "let freq = flow.get(\"freq\") || 0.5;\n\nlet period = 1/freq * 1000;\n\nmsg.payload = `RESPF -BLOCK=${Math.round(period)} -ADDR=1 -MULTI -PADDR=0\\n`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 500,
+        "wires": [
+            [
+                "1b23e625ed3bfe65",
+                "f291dc0b044ee632"
+            ]
+        ]
+    },
+    {
+        "id": "1b23e625ed3bfe65",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 810,
+        "y": 500,
+        "wires": [
+            [
+                "969c3883d81bcd91"
+            ]
+        ]
+    },
+    {
+        "id": "141f2704e96ee3d3",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1090,
+        "y": 500,
+        "wires": [
+            [
+                "b54211b729f2ae1a"
+            ]
+        ]
+    },
+    {
+        "id": "06e8eaf5b71697d1",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Agent 1-out",
+        "serial": "51df3d6cfc361753",
+        "x": 530,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "f291dc0b044ee632",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Agent 1-out",
+        "serial": "51df3d6cfc361753",
+        "x": 830,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "743d2ece6525772e",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Agent 1-out",
+        "serial": "51df3d6cfc361753",
+        "x": 1110,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "b044cb06d5f1a393",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 510,
+        "y": 580,
+        "wires": [
+            [
+                "1911f08c9f14b432"
+            ]
+        ]
+    },
+    {
+        "id": "1911f08c9f14b432",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "set freq 2",
+        "func": "let freq = flow.get(\"freq\") || 0.5;\n\nlet period = 1/freq * 1000;\n\nmsg.payload = `RESPF -BLOCK=${Math.round(period)} -ADDR=2 -MULTI -PADDR=0\\n`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 660,
+        "y": 580,
+        "wires": [
+            [
+                "57ed35d27feca64c",
+                "3a149ce5720702ad"
+            ]
+        ]
+    },
+    {
+        "id": "57ed35d27feca64c",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 810,
+        "y": 580,
+        "wires": [
+            [
+                "74248aa484a4b47b"
+            ]
+        ]
+    },
+    {
+        "id": "dfb9eb801d0bda47",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1090,
+        "y": 580,
+        "wires": [
+            [
+                "5a9781e5faed9773"
+            ]
+        ]
+    },
+    {
+        "id": "6babc5d3666fe8ad",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Agent 2-out",
+        "serial": "38283a4216d41c27",
+        "x": 530,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "3a149ce5720702ad",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Agent 2-out",
+        "serial": "38283a4216d41c27",
+        "x": 830,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "303bfd35340b12bb",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Agent 2-out",
+        "serial": "38283a4216d41c27",
+        "x": 1110,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "b009d2c1dd7e9966",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "STOP",
+        "func": "msg.payload = \"STOP\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 500,
+        "wires": [
+            [
+                "8e3a4a9fc4432f46",
+                "06e8eaf5b71697d1"
+            ]
+        ]
+    },
+    {
+        "id": "b2ece5df31cdbbc1",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "STOP",
+        "func": "msg.payload = \"STOP\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 580,
+        "wires": [
+            [
+                "b044cb06d5f1a393",
+                "6babc5d3666fe8ad"
+            ]
+        ]
+    },
+    {
+        "id": "5b525a5ae1786190",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "STOP",
+        "func": "msg.payload = \"STOP\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 420,
+        "wires": [
+            [
+                "20ceb4dda1b6db3c",
+                "6aebd0a3e6467b82"
+            ]
+        ]
+    },
+    {
+        "id": "969c3883d81bcd91",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "STOP",
+        "func": "msg.payload = \"STOP\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 500,
+        "wires": [
+            [
+                "743d2ece6525772e",
+                "141f2704e96ee3d3"
+            ]
+        ]
+    },
+    {
+        "id": "74248aa484a4b47b",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "STOP",
+        "func": "msg.payload = \"STOP\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 950,
+        "y": 580,
+        "wires": [
+            [
+                "303bfd35340b12bb",
+                "dfb9eb801d0bda47"
+            ]
+        ]
+    },
+    {
+        "id": "b202523e616183bd",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "SAVE",
+        "func": "msg.payload = \"SAVE\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 500,
+        "wires": [
+            [
+                "0ef743895ffcea28",
+                "923163c19bb52242"
+            ]
+        ]
+    },
+    {
+        "id": "2e94c2646633949b",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "SAVE",
+        "func": "msg.payload = \"SAVE\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1510,
+        "y": 580,
+        "wires": [
+            [
+                "db6bf1562c8bf2e5",
+                "3e7f519aac7bad9a"
+            ]
+        ]
+    },
+    {
+        "id": "d4ec7239fdd982a6",
+        "type": "serial in",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "Agent 1-in",
+        "serial": "51df3d6cfc361753",
+        "x": 120,
+        "y": 960,
+        "wires": [
+            [
+                "3b9ee0e2b5d52351"
+            ]
+        ]
+    },
+    {
+        "id": "3b9ee0e2b5d52351",
+        "type": "debug",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "aa0f8bf2afd42c73",
+        "type": "serial in",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "Agent 2-in",
+        "serial": "38283a4216d41c27",
+        "x": 120,
+        "y": 1000,
+        "wires": [
+            [
+                "19aa9e711fa42dbe"
+            ]
+        ]
+    },
+    {
+        "id": "19aa9e711fa42dbe",
+        "type": "debug",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "debug 29",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 320,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "923163c19bb52242",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1650,
+        "y": 500,
+        "wires": [
+            [
+                "e06f627504dfc96b"
+            ]
+        ]
+    },
+    {
+        "id": "3e7f519aac7bad9a",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1650,
+        "y": 580,
+        "wires": [
+            [
+                "7ed6a17954a8998b"
+            ]
+        ]
+    },
+    {
+        "id": "823f33920f116ccd",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "RESPF",
+        "func": "msg.payload = \"RESPF\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2100,
+        "y": 500,
+        "wires": [
+            [
+                "e5dc98385885cdc7"
+            ]
+        ]
+    },
+    {
+        "id": "0ac1633949147434",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "RESPF",
+        "func": "msg.payload = \"RESPF\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2100,
+        "y": 580,
+        "wires": [
+            [
+                "96cdf25d6e2a0c9b"
+            ]
+        ]
+    },
+    {
+        "id": "96cdf25d6e2a0c9b",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Agent 2-out",
+        "serial": "38283a4216d41c27",
+        "x": 2270,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "e5dc98385885cdc7",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Agent 1-out",
+        "serial": "51df3d6cfc361753",
+        "x": 2270,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "f258c532f55a99e2",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "KF tracking",
+        "func": "const std_dist = 5.0;               // [cm] Standard deviation of distance\nconst std_theta = 15 * Math.PI/180; // [rad] Standard deviation of angle\nconst vel_noise = 10.0;             // [cm/s] Velocity noise input \nconst accel_noise = 5.0;            // [cm/s^2] Acceleration noise input\n\nconst math = global.get('math');\n\n// Get current timestamp\nlet now = Date.now();\nlet prevTime;\nlet topic = msg.topic;\n\nif (topic === \"agent 1\") {\n    prevTime = flow.get(\"1_prev_t\");\n    flow.set(\"1_prev_t\", now);\n} else if (topic === \"agent 2\") {\n    prevTime = flow.get(\"2_prev_t\");\n    flow.set(\"2_prev_t\", now);\n}\n\n// Time delta\nlet dt = prevTime ? (now - prevTime) / 1000 : 0.1;\n\n// State and covariance retrieval\nlet x, P;\nlet newX = math.matrix([[100], [100], [0], [0]]);\nlet newP = math.multiply(math.identity(4), 10000);\nif (topic === \"agent 1\") {\n    x = flow.get(\"1_x\") || newX;\n    P = flow.get(\"1_P\") || newP;\n} else if (topic === \"agent 2\") {\n    x = flow.get(\"2_x\") || newX;\n    P = flow.get(\"2_P\") || newP;\n}\n\nif (dt > 2) {\n    x = newX;\n    P = newP;\n}\n\n// ===== Prediction =====\nlet A = math.matrix([\n    [1, 0, dt, 0],\n    [0, 1, 0, dt],\n    [0, 0, 1, 0],\n    [0, 0, 0, 1]\n]);\n\nlet G = math.matrix([\n    [dt,0, dt**2/2,0],\n    [0,dt, 0,dt**2/2],\n    [1,0, dt,0],\n    [0,1, 0,dt]\n]);\n\nlet Q = math.matrix([[vel_noise**2,0,0,0], \n                     [0,vel_noise**2,0,0],\n                     [0,0,accel_noise**2,0],\n                     [0,0,0,accel_noise**2]])\nlet GQGt = math.multiply(G, math.multiply(Q, math.transpose(G)));\n\nx = math.multiply(A, x);\nP = math.add(math.multiply(A, math.multiply(P, math.transpose(A))), GQGt);\n\n// ===== Measurement update =====\nlet z_dist = msg.payload.distance_cm;\nlet z_theta = (msg.payload.loc_az * Math.PI/180);\nlet rssi = msg.payload.rssi_dbm;\n\nlet z = math.matrix([[z_dist], [z_theta]]);\nlet x_pos = x.get([0, 0]);\nlet y_pos = x.get([1, 0]);\nlet D = Math.sqrt(x_pos ** 2 + y_pos ** 2);\nif (D < 1e-3) D = 1e-3;\n\n// Guard against outlier angles\nlet theta_pred = Math.atan2(y_pos, x_pos);\nlet innov = z_theta - theta_pred;\nwhile (innov > Math.PI) innov -= 2 * Math.PI;\nwhile (innov < -Math.PI) innov += 2 * Math.PI;\n\nlet thrs_innov = Math.PI / 4;\nif (Math.abs(innov) > thrs_innov) {\n    z_theta = theta_pred + Math.sign(innov) * thrs_innov;\n}\n\nlet H = math.matrix([\n    [x_pos/D, y_pos/D, 0, 0],\n    [-y_pos/(D**2), x_pos/(D**2), 0, 0]\n]);\n\nlet R = math.matrix([\n    [std_dist**2, 0],\n    [0, std_theta**2]\n]);\n\nlet h_x = math.matrix([\n    [D],\n    [Math.atan2(y_pos, x_pos)]\n]);\n\nlet y_resid = math.subtract(z, h_x);\nlet S = math.add(math.multiply(H, math.multiply(P, math.transpose(H))), R);\nlet K = math.multiply(P, math.multiply(math.transpose(H), math.inv(S)));\n\n\nx = math.add(x, math.multiply(K, y_resid));\nlet I = math.identity(4);\nP = math.multiply(math.subtract(I, math.multiply(K, H)), P);\n\n// Store updated values\nif (topic === \"agent 1\") {\n    flow.set(\"1_x\", x);\n    flow.set(\"1_P\", P);\n} else if (topic === \"agent 2\") {\n    flow.set(\"2_x\", x);\n    flow.set(\"2_P\", P);\n}\n\n// Output result: transformed coordinates\nmsg.payload = {\n    x: x.get([1, 0]),\n    y: x.get([0, 0]),\n};\nmsg.rssi = rssi;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 960,
+        "wires": [
+            [
+                "ab972eb7c071d5df",
+                "fb43dfdce5188f20",
+                "c50a3f80eafd9ae1"
+            ]
+        ]
+    },
+    {
+        "id": "ab972eb7c071d5df",
+        "type": "ui-chart",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "group": "d7e60aaa9fea8ac7",
+        "name": "Agent's Positions KF",
+        "label": "chart",
+        "order": 4,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "x [cm]",
+        "xAxisProperty": "payload.x",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "y [cm]",
+        "yAxisProperty": "payload.y",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "triangle",
+        "pointRadius": "10",
+        "showLegend": true,
+        "removeOlder": "5",
+        "removeOlderUnit": "1",
+        "removeOlderPoints": "10",
+        "colors": [
+            "#000000",
+            "#0095ff",
+            "#ff0000",
+            "#2ca02c",
+            "#a347e1",
+            "#00eeff",
+            "#00ff11",
+            "#bc67b1",
+            "#ffa200"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1080,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fb43dfdce5188f20",
+        "type": "debug",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "debug 16",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "a037873e719c0cfb",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1370,
+        "y": 420,
+        "wires": [
+            [
+                "b4bfdbd6459e9a3f"
+            ]
+        ]
+    },
+    {
+        "id": "97a3509abbeb9271",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Anchor-out",
+        "serial": "aead97ea5d96719a",
+        "x": 1390,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "50d5dec667edcd33",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1370,
+        "y": 500,
+        "wires": [
+            [
+                "b202523e616183bd"
+            ]
+        ]
+    },
+    {
+        "id": "dc5ea4739b7a35ba",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Agent 1-out",
+        "serial": "51df3d6cfc361753",
+        "x": 1390,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "a43a0a4b0f2f4669",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1370,
+        "y": 580,
+        "wires": [
+            [
+                "2e94c2646633949b"
+            ]
+        ]
+    },
+    {
+        "id": "978a5225cccb4226",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Agent 2-out",
+        "serial": "38283a4216d41c27",
+        "x": 1390,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "d165c0885fa6c50c",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "DIAG",
+        "func": "msg.payload = \"DIAG 1\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 420,
+        "wires": [
+            [
+                "a037873e719c0cfb",
+                "97a3509abbeb9271"
+            ]
+        ]
+    },
+    {
+        "id": "b54211b729f2ae1a",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "DIAG",
+        "func": "msg.payload = \"DIAG 1\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 500,
+        "wires": [
+            [
+                "50d5dec667edcd33",
+                "dc5ea4739b7a35ba"
+            ]
+        ]
+    },
+    {
+        "id": "5a9781e5faed9773",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "DIAG",
+        "func": "msg.payload = \"DIAG 1\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1230,
+        "y": 580,
+        "wires": [
+            [
+                "978a5225cccb4226",
+                "a43a0a4b0f2f4669"
+            ]
+        ]
+    },
+    {
+        "id": "3f12439b27ab0423",
+        "type": "influxdb out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "influxdb": "49640a0fb9aac52e",
+        "name": "Store raw position",
+        "measurement": "",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "Unitn",
+        "bucket": "raw_positions",
+        "x": 1290,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "cf6731ad40a8d11c",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "prep rawp 4 DB",
+        "func": "let agent;\nif (msg.topic === \"agent 1\") {\n    agent = \"agent_1\";\n} else if (msg.topic === \"agent 2\") {\n    agent = \"agent_2\";\n} else {\n    agent = \"unknown\";\n}\n\n// Set fields\nlet x = parseFloat(msg.payload.x);\nlet y = parseFloat(msg.payload.y);\nlet rssi = msg.rssi;\n\nmsg.measurement = \"rawpos\";\nmsg.payload = { x: x, y: y, rssi: rssi, agent: agent };\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 800,
+        "wires": [
+            [
+                "3f12439b27ab0423",
+                "464aa4b451867f5c"
+            ]
+        ]
+    },
+    {
+        "id": "c50a3f80eafd9ae1",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "prep rawp 4 DB",
+        "func": "let agent;\nif (msg.topic === \"agent 1\") {\n    agent = \"agent_1\";\n} else if (msg.topic === \"agent 2\") {\n    agent = \"agent_2\";\n} else {\n    agent = \"unknown\";\n}\n\n// Set fields\nlet x = parseFloat(msg.payload.x);\nlet y = parseFloat(msg.payload.y);\nlet rssi = msg.rssi;\n\nmsg.measurement = \"estpos\";\nmsg.payload = { x: x, y: y, rssi: rssi, agent: agent };\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 960,
+        "wires": [
+            [
+                "ca773675f6104b27",
+                "784a1cf19c14b03c"
+            ]
+        ]
+    },
+    {
+        "id": "ca773675f6104b27",
+        "type": "debug",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "debug 19",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "784a1cf19c14b03c",
+        "type": "influxdb out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "influxdb": "49640a0fb9aac52e",
+        "name": "Store est position",
+        "measurement": "",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "Unitn",
+        "bucket": "tracking",
+        "x": 1290,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "123e37210e86c596",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "name": "build query",
+        "func": "const startTime = msg.payload.start;\nconst stopTime = msg.payload.stop;\n\nmsg.query = `\nfrom(bucket: \"tracking\")\n  |> range(start: ${startTime}, stop: ${stopTime})\n  |> filter(fn: (r) => r._measurement == \"estpos\")\n  |> filter(fn: (r) => r._field == \"x\" or r._field == \"y\" or r._field == \"agent\")\n  |> pivot(rowKey:[\"_time\"], columnKey: [\"_field\"], valueColumn: \"_value\")\n  |> filter(fn: (r) => r.agent == \"agent_1\" or r.agent == \"agent_2\")\n`;\n\nmsg.params = {\n  startTime: msg.payload.start,\n  stopTime: msg.payload.stop\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 1420,
+        "wires": [
+            [
+                "a214a899c42489fb",
+                "6c64312ccaabef2a"
+            ]
+        ]
+    },
+    {
+        "id": "a214a899c42489fb",
+        "type": "influxdb in",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "influxdb": "49640a0fb9aac52e",
+        "name": "Tracking query",
+        "query": "",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "Unitn",
+        "x": 680,
+        "y": 1420,
+        "wires": [
+            [
+                "c149670a9a4d4719",
+                "53415b9caff4f572",
+                "27811c2ca1269b25",
+                "65383ad578ce0698",
+                "3d1603a633d1eba0"
+            ]
+        ]
+    },
+    {
+        "id": "c149670a9a4d4719",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "name": "parse points agent 1",
+        "func": "let points = [];\n\nlet m = flow.get(\"npt_disp\") || 100\n\nconst allPoints = msg.payload.filter(p => p.agent === \"agent_1\");\n\nconst total = allPoints.length;\nconst step = Math.max(1, Math.floor(total / m));\n\nfor (let i = 0; i < total; i += step) {\n    let p = allPoints[i];\n    points.push({ x: p.x, y: p.y });\n}\n\nmsg.payload = points;\nmsg.topic = \"agent 1\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 1380,
+        "wires": [
+            [
+                "b20315e453198193"
+            ]
+        ]
+    },
+    {
+        "id": "53415b9caff4f572",
+        "type": "debug",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "name": "debug 31",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 1300,
+        "wires": []
+    },
+    {
+        "id": "30bd0b45970243a0",
+        "type": "ui-chart",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "group": "444e45a5442f3311",
+        "name": "Replay trajectories",
+        "label": "Replay trajectory",
+        "order": 4,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "x [cm]",
+        "xAxisProperty": "payload.x",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "y [cm]",
+        "yAxisProperty": "payload.y",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "triangle",
+        "pointRadius": "5",
+        "showLegend": true,
+        "removeOlder": "5",
+        "removeOlderUnit": "1",
+        "removeOlderPoints": "1000",
+        "colors": [
+            "#000000",
+            "#0095ff",
+            "#ff0000",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": 8,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1350,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "27811c2ca1269b25",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "name": "parse points agent 2",
+        "func": "let points = [];\n\nlet m = flow.get(\"npt_disp\") || 100\n\nconst allPoints = msg.payload.filter(p => p.agent === \"agent_2\");\n\nconst total = allPoints.length;\nconst step = Math.max(1, Math.floor(total / m));\n\nfor (let i = 0; i < total; i += step) {\n    let p = allPoints[i];\n    points.push({ x: p.x, y: p.y });\n}\n\nmsg.payload = points;\nmsg.topic = \"agent 2\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 1420,
+        "wires": [
+            [
+                "94fdd81e7f09377c"
+            ]
+        ]
+    },
+    {
+        "id": "65383ad578ce0698",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "name": "plot fixed anchor",
+        "func": "msg.payload = {\n    x: 0,\n    y: 0\n};\n\nmsg.topic = \"anchor\"\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 1460,
+        "wires": [
+            [
+                "30bd0b45970243a0"
+            ]
+        ]
+    },
+    {
+        "id": "b20315e453198193",
+        "type": "split",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "payload",
+        "x": 1130,
+        "y": 1380,
+        "wires": [
+            [
+                "30bd0b45970243a0"
+            ]
+        ]
+    },
+    {
+        "id": "94fdd81e7f09377c",
+        "type": "split",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "payload",
+        "x": 1130,
+        "y": 1420,
+        "wires": [
+            [
+                "30bd0b45970243a0"
+            ]
+        ]
+    },
+    {
+        "id": "dd377558b18bf7cc",
+        "type": "change",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "name": "update max number of displayed points",
+        "rules": [
+            {
+                "t": "set",
+                "p": "npt_disp",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 1580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "890428d316a10b67",
+        "type": "ui-button",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "group": "444e45a5442f3311",
+        "name": "Update plot",
+        "label": "Update plot",
+        "order": 3,
+        "width": 3,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 130,
+        "y": 1500,
+        "wires": [
+            [
+                "07d6075c37e4b66c",
+                "30bd0b45970243a0"
+            ]
+        ]
+    },
+    {
+        "id": "4310a4cb345ba986",
+        "type": "ui-number-input",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "7932d5a3bf7ae7bb",
+        "group": "1a9d42c01c239607",
+        "name": "Select start time",
+        "label": "",
+        "order": 3,
+        "width": "1",
+        "height": "1",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "500",
+        "step": 1,
+        "tooltip": "",
+        "passthru": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 280,
+        "y": 1760,
+        "wires": [
+            [
+                "e65ce79d7bbd8398"
+            ]
+        ]
+    },
+    {
+        "id": "3f93955339bb40d7",
+        "type": "ui-dropdown",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "7932d5a3bf7ae7bb",
+        "group": "1a9d42c01c239607",
+        "name": "Select start time type",
+        "label": "",
+        "tooltip": "",
+        "order": 4,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "Seconds",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "Minutes",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "Hours",
+                "value": "3",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 720,
+        "y": 1760,
+        "wires": [
+            [
+                "b9c4cc677deaa485"
+            ]
+        ]
+    },
+    {
+        "id": "f20f38db52ea01a0",
+        "type": "ui-number-input",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "7932d5a3bf7ae7bb",
+        "group": "1a9d42c01c239607",
+        "name": "Select stop time",
+        "label": "",
+        "order": 7,
+        "width": "1",
+        "height": "1",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "500",
+        "step": 1,
+        "tooltip": "",
+        "passthru": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 280,
+        "y": 1800,
+        "wires": [
+            [
+                "bf01a6ca203cd9bf"
+            ]
+        ]
+    },
+    {
+        "id": "06b8affa7e9ab39f",
+        "type": "ui-dropdown",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "7932d5a3bf7ae7bb",
+        "group": "1a9d42c01c239607",
+        "name": "Select stop time type",
+        "label": "",
+        "tooltip": "",
+        "order": 8,
+        "width": "1",
+        "height": "1",
+        "passthru": false,
+        "multiple": false,
+        "chips": false,
+        "clearable": false,
+        "options": [
+            {
+                "label": "Seconds",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "Minutes",
+                "value": "2",
+                "type": "str"
+            },
+            {
+                "label": "Hours",
+                "value": "3",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 720,
+        "y": 1800,
+        "wires": [
+            [
+                "5c8d21a361750e92"
+            ]
+        ]
+    },
+    {
+        "id": "7e229ffb897e6f74",
+        "type": "ui-text",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "7932d5a3bf7ae7bb",
+        "group": "1a9d42c01c239607",
+        "order": 5,
+        "width": 1,
+        "height": "1",
+        "name": "",
+        "label": "ago",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 1130,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "b12b07a558a5eb8c",
+        "type": "ui-text",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "7932d5a3bf7ae7bb",
+        "group": "1a9d42c01c239607",
+        "order": 2,
+        "width": "1",
+        "height": "1",
+        "name": "",
+        "label": "from",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 110,
+        "y": 1760,
+        "wires": []
+    },
+    {
+        "id": "e50dc8a08b02545d",
+        "type": "ui-text",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "7932d5a3bf7ae7bb",
+        "group": "1a9d42c01c239607",
+        "order": 6,
+        "width": "1",
+        "height": "1",
+        "name": "",
+        "label": "to",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 110,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "d1c978c31ca2285d",
+        "type": "ui-text",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "7932d5a3bf7ae7bb",
+        "group": "1a9d42c01c239607",
+        "order": 9,
+        "width": "1",
+        "height": "1",
+        "name": "",
+        "label": "ago",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 1130,
+        "y": 1800,
+        "wires": []
+    },
+    {
+        "id": "5c7338fc535c3dda",
+        "type": "ui-text",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "group": "444e45a5442f3311",
+        "order": 1,
+        "width": "2",
+        "height": "1",
+        "name": "max pt info",
+        "label": "Select number of displayed points",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 130,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "f6adce5ee5e3acf8",
+        "type": "ui-text",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "7932d5a3bf7ae7bb",
+        "group": "1a9d42c01c239607",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "time interval info",
+        "label": "select time interval",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 140,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "e65ce79d7bbd8398",
+        "type": "change",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "7932d5a3bf7ae7bb",
+        "name": "update start time",
+        "rules": [
+            {
+                "t": "set",
+                "p": "start_t",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bf01a6ca203cd9bf",
+        "type": "change",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "7932d5a3bf7ae7bb",
+        "name": "update stop time",
+        "rules": [
+            {
+                "t": "set",
+                "p": "stop_t",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 490,
+        "y": 1800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b9c4cc677deaa485",
+        "type": "change",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "7932d5a3bf7ae7bb",
+        "name": "update start type",
+        "rules": [
+            {
+                "t": "set",
+                "p": "start_type",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 1760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5c8d21a361750e92",
+        "type": "change",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "7932d5a3bf7ae7bb",
+        "name": "update stop type",
+        "rules": [
+            {
+                "t": "set",
+                "p": "stop_type",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 1800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "07d6075c37e4b66c",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "name": "time dt",
+        "func": "// Get flow variables\nconst startTime = flow.get(\"start_t\") || 1;\nconst startType = flow.get(\"start_type\") || 2;\nconst stopTime = flow.get(\"stop_t\") || 0;\nconst stopType = flow.get(\"stop_type\") || 1;\n\n// Convert time unit to milliseconds\nfunction toMillis(value, type) {\n    switch (type) {\n        case \"1\": return value * 1000;           // seconds\n        case \"2\": return value * 60 * 1000;      // minutes\n        case \"3\": return value * 60 * 60 * 1000; // hours\n        default:  return value * 1000;           // fallback to seconds\n    }\n}\n\nconst now = Date.now();\n\nlet startOffset = toMillis(startTime, startType);\nlet stopOffset = toMillis(stopTime, stopType);\n\nif (startOffset < stopOffset) {\n    let temp = stopOffset;\n    stopOffset = startOffset;\n    startOffset = temp;\n}\n\n// Calculate timestamps\nconst start = new Date(now - startOffset).toISOString();\nconst stop = new Date(now - stopOffset).toISOString();\n\nmsg.payload = {\n    start,\n    stop\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 1420,
+        "wires": [
+            [
+                "123e37210e86c596",
+                "b88e03349d04c9a0"
+            ]
+        ]
+    },
+    {
+        "id": "9d87aa6464c30f73",
+        "type": "ui-text",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "98b25c5666216c8b",
+        "group": "3b5f996fa9066473",
+        "order": 1,
+        "width": 4,
+        "height": 0,
+        "name": "on/off info",
+        "label": "Turn on and off the localization",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 120,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "6764290b4022f350",
+        "type": "ui-text",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "group": "d7e60aaa9fea8ac7",
+        "order": 1,
+        "width": 6,
+        "height": 0,
+        "name": "plot info",
+        "label": "Real time tracking via Kalman Filter",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 1080,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "a2a05ff81c82ddf1",
+        "type": "ui-text",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "group": "3b5f996fa9066473",
+        "order": 8,
+        "width": 6,
+        "height": 0,
+        "name": "set freq info",
+        "label": "changes are applied only to nodes connected to host via USB",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 130,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "6c64312ccaabef2a",
+        "type": "debug",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "name": "debug 18",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "b88e03349d04c9a0",
+        "type": "debug",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "name": "debug 30",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 480,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "1813819e4e979a4d",
+        "type": "ui-number-input",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "group": "444e45a5442f3311",
+        "name": "Set number of points",
+        "label": "",
+        "order": 2,
+        "width": "1",
+        "height": "1",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": "10",
+        "max": "200",
+        "step": "10",
+        "tooltip": "",
+        "passthru": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 340,
+        "y": 1580,
+        "wires": [
+            [
+                "dd377558b18bf7cc"
+            ]
+        ]
+    },
+    {
+        "id": "1f41e7de17a81d15",
+        "type": "ui-button",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "group": "d7e60aaa9fea8ac7",
+        "name": "clear chart",
+        "label": "clear chart",
+        "order": 6,
+        "width": "6",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "[]",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 790,
+        "y": 1020,
+        "wires": [
+            [
+                "ab972eb7c071d5df",
+                "e9866ddea5f660ed",
+                "071f451d8297d821",
+                "2e7d5488bcfa6447"
+            ]
+        ]
+    },
+    {
+        "id": "59889c051d59d95a",
+        "type": "debug",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "debug 32",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "464aa4b451867f5c",
+        "type": "debug",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "debug 33",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 760,
+        "wires": []
+    },
+    {
+        "id": "47316f9cf21a81c1",
+        "type": "comment",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "name": "Reset line",
+        "info": "This message should arrive to the plot\nbefore the data from the DB is retrieved.",
+        "x": 720,
+        "y": 1500,
+        "wires": []
+    },
+    {
+        "id": "04c9c13c250e9416",
+        "type": "comment",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "raw pos",
+        "info": "Raw positions are 2D positions calculated\nfrom a single measurements, considering \njust the measured distance and its angle",
+        "x": 610,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "7ad7f5939609b50c",
+        "type": "comment",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "est pos",
+        "info": "Estimated positions are 2D positions obtained\nby fusing measurements over time using a KF\nscheme",
+        "x": 610,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "e9866ddea5f660ed",
+        "type": "ui-chart",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "group": "d7e60aaa9fea8ac7",
+        "name": "dt histogram",
+        "label": "histograms of measurement's time interval",
+        "order": 3,
+        "chartType": "histogram",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "dt [ms]",
+        "xAxisProperty": "payload",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "bins",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "0",
+        "xmax": "600",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": "24",
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "6",
+        "height": 4,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1050,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f7a1667c65e412b9",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "compute dt",
+        "func": "// Get current timestamp\nlet now = Date.now();\nlet prevTime;\nlet topic = msg.topic;\n\nif (topic === \"agent 1\") {\n    prevTime = flow.get(\"d1_prev_t\");\n    flow.set(\"d1_prev_t\", now);\n} else if (topic === \"agent 2\") {\n    prevTime = flow.get(\"d2_prev_t\");\n    flow.set(\"d2_prev_t\", now);\n}\n\n// Time delta\nmsg.payload = prevTime ? (now - prevTime): 0.0;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1080,
+        "wires": [
+            [
+                "e9866ddea5f660ed"
+            ]
+        ]
+    },
+    {
+        "id": "9085253d9484d47b",
+        "type": "comment",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "Diagnostics",
+        "info": "compute and display diagnostic metrics:\n- measurement time interval:\n    dt between consequent measuements\n- Radio Signal Strength Indicator:\n    metric on quality of signal, which affects\n    measurement precision",
+        "x": 590,
+        "y": 1100,
+        "wires": []
+    },
+    {
+        "id": "071f451d8297d821",
+        "type": "ui-chart",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "group": "d7e60aaa9fea8ac7",
+        "name": "RSSI",
+        "label": "RSSI",
+        "order": 5,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "time [HH:mm:ss]",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "HH:mm:ss",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "RSSI [dBm]",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "-100",
+        "ymax": "-20",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": "3",
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "60",
+        "removeOlderPoints": "1000",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "6",
+        "height": 6,
+        "className": "",
+        "interpolation": "linear",
+        "x": 1030,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0cbee648d9d09be4",
+        "type": "ui-text",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "group": "3b5f996fa9066473",
+        "order": 2,
+        "width": "2",
+        "height": 3,
+        "name": "Separate column",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 150,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "56085f3ba1a8537e",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "b68762131b886951",
+        "name": "extract rssi",
+        "func": "msg.payload = msg.payload.rssi_dbm;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 1120,
+        "wires": [
+            [
+                "071f451d8297d821"
+            ]
+        ]
+    },
+    {
+        "id": "3d1603a633d1eba0",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "name": "compute number of pt",
+        "func": "const allPt1 = msg.payload.filter(p => p.agent === \"agent_1\");\nconst allPt2 = msg.payload.filter(p => p.agent === \"agent_2\");\n\nlet totnum = allPt1.length + allPt2.length;\n\nmsg.payload = \"Found \" + totnum + \" entries\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 1340,
+        "wires": [
+            [
+                "46a989b7d80cb07b"
+            ]
+        ]
+    },
+    {
+        "id": "46a989b7d80cb07b",
+        "type": "ui-text",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "12a011b8d56c83c9",
+        "group": "1a9d42c01c239607",
+        "order": 10,
+        "width": "4",
+        "height": "1",
+        "name": "show entries number",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-left",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 1180,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "e06f627504dfc96b",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "SETAPP",
+        "func": "msg.payload = \"SETAPP RESPF\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1800,
+        "y": 500,
+        "wires": [
+            [
+                "379670bdd77f81dc",
+                "21a7ab995bbe2527"
+            ]
+        ]
+    },
+    {
+        "id": "379670bdd77f81dc",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Agent 1-out",
+        "serial": "51df3d6cfc361753",
+        "x": 1970,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "21a7ab995bbe2527",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1950,
+        "y": 500,
+        "wires": [
+            [
+                "823f33920f116ccd"
+            ]
+        ]
+    },
+    {
+        "id": "7ed6a17954a8998b",
+        "type": "function",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "SETAPP",
+        "func": "msg.payload = \"SETAPP RESPF\\n\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1800,
+        "y": 580,
+        "wires": [
+            [
+                "7cfea7494babbbad",
+                "dbc218f2e8b6a093"
+            ]
+        ]
+    },
+    {
+        "id": "7cfea7494babbbad",
+        "type": "delay",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "5ms",
+        "pauseType": "delay",
+        "timeout": "5",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 1950,
+        "y": 580,
+        "wires": [
+            [
+                "0ac1633949147434"
+            ]
+        ]
+    },
+    {
+        "id": "dbc218f2e8b6a093",
+        "type": "serial out",
+        "z": "7d4fd8ba21ce7e32",
+        "g": "5f91a9df89fc67cc",
+        "name": "Agent 2-out",
+        "serial": "38283a4216d41c27",
+        "x": 1970,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "aead97ea5d96719a",
+        "type": "serial-port",
+        "name": "Anchor",
+        "serialport": "COM19",
+        "serialbaud": "115200",
+        "databits": 8,
+        "parity": "none",
+        "stopbits": 1,
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": 10000
+    },
+    {
+        "id": "d7e60aaa9fea8ac7",
+        "type": "ui-group",
+        "name": "Real time localization",
+        "page": "dba5f8661cd9754a",
+        "width": "12",
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "3b5f996fa9066473",
+        "type": "ui-group",
+        "name": "Control Panel",
+        "page": "dba5f8661cd9754a",
+        "width": "12",
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "51df3d6cfc361753",
+        "type": "serial-port",
+        "name": "Agent 1",
+        "serialport": "COM21",
+        "serialbaud": "115200",
+        "databits": 8,
+        "parity": "none",
+        "stopbits": 1,
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": 10000
+    },
+    {
+        "id": "38283a4216d41c27",
+        "type": "serial-port",
+        "name": "Agent 2",
+        "serialport": "COM20",
+        "serialbaud": "115200",
+        "databits": 8,
+        "parity": "none",
+        "stopbits": 1,
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": 10000
+    },
+    {
+        "id": "49640a0fb9aac52e",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": 8086,
+        "protocol": "http",
+        "database": "database",
+        "name": "UWB localization",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "http://localhost:8086",
+        "timeout": 10,
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "444e45a5442f3311",
+        "type": "ui-group",
+        "name": "Plot history trajectory",
+        "page": "926e39abecc4888b",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "1a9d42c01c239607",
+        "type": "ui-group",
+        "name": "Replay trajectories",
+        "page": "926e39abecc4888b",
+        "width": 4,
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "dba5f8661cd9754a",
+        "type": "ui-page",
+        "name": "UWB localization",
+        "ui": "10493649e6ca6003",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "bf0433a1b5b0329b",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "926e39abecc4888b",
+        "type": "ui-page",
+        "name": "UWB database",
+        "ui": "10493649e6ca6003",
+        "path": "/page2",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "4ddb7e11b670673a",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "10493649e6ca6003",
+        "type": "ui-base",
+        "name": "ui_template.label.myDashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": true
+    },
+    {
+        "id": "bf0433a1b5b0329b",
+        "type": "ui-theme",
+        "name": "ui_template.label.theme 2",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "4ddb7e11b670673a",
+        "type": "ui-theme",
+        "name": "ui_template.themes.defaultTheme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    }
+]
