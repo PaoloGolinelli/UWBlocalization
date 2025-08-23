@@ -27,7 +27,7 @@ For more information please refer to the provided project report
 - `node_red_flow.json`: Full Node-RED flow including control, visualization, and data logging logic.
 - `firmware/nRF52840DK-DW3_QM33_SDK_UCI-FreeRTOS.hex`: Official Qorvo-provided UCI firmware used for testing and calibration via Qorvo One graphic interface.
 - `firmware/nRF52840DK-DW3_QM33_SDK_CLI-FreeRTOS.hex`: Official Qorvo-provided CLI firmware used for testing and data acquisition.
-- `report/project_report.pdf`: Project documentation/report describing the implementation, architecture, and results.
+- `project_report.pdf`: Project documentation/report describing the implementation, architecture, and results.
 - `evaluation/performance_analysis.m`: Matlab file used for evaluating the performance of the localization system against Motion Capture tracking
 - `evaluation/mocap_data.mat`: Motion Capture data in matlab file format
 - `evaluation/mocap_data.csv`: Motion Capture data in csv file format
